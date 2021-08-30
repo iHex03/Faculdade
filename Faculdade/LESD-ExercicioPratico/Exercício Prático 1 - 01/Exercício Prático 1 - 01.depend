@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1583411798 source:f:\lesd\exercício prático 1 - 01\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1583438446 source:d:\lesd\exercício prático 1 - 01\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1583440504 source:d:\lesd\exercício prático 1 - 01\ex02.c
+	<stdio.h>
+	<stdlib.h>
+
+1583438496 source:d:\lesd\exercício prático 1 - 01\ex01.c
+	<stdio.h>
+	<stdlib.h>
+
+1584015324 source:f:\lesd\exercício prático 1 - 01\ex01.c
+	<stdlib.h>
+
+1584017554 source:f:\lesd\exercício prático 1 - 01\ex02.c
+	<stdlib.h>
+
+1584017620 source:f:\lesd\exercício prático 1 - 01\ex03.c
+	<stdlib.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1600290672 source:c:\users\marcel\documents\codeblocks\atividade assíncrona lesd\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
