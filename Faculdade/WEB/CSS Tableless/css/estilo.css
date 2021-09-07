@@ -48,11 +48,11 @@ body
 
 .formulario0 
 {
-    position: relative;
-    top: 5%;
+    position: absolute;
+    top: 20%;
     left: 15%;
     width: 70%;
-    height: 10vh;
+    height: 10%;
     text-indent: 0px;
     background-color: lightgrey;
     color: black;
@@ -62,11 +62,12 @@ body
 
 .formulario1 
 {
-    position: relative;
-    top: 10%;
+    position: absolute;
+    top: 35%;
     left: 15%;
     width: 70%;
     height: 30vh;
+    text-indent: 0px;
     background-color: lightgrey;
     color: black;
     border: 2px solid black;
@@ -77,8 +78,8 @@ body
 .conteudo 
 {
     width: 100%;
-    text-indent: 2%;
-    padding-top: 2%;
+    text-indent: 10px;
+    padding-top: 10px;
     background-color: rgb(0, 0, 50);
     color: darkgoldenrod;
     height: 80vh;
