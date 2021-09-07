@@ -1,17 +1,11 @@
-p 
-{
-    text-indent: 10px;
-}
-
 body 
 {
     background-color: #000;
-    margin-top: auto;
 }
 
 .linha 
 {
-    float: left; /* disposição da div lado a lado (primeiro à esqquerda) */
+    float: left; /* disposição da div lado a lado (primeiro à esquerda) */
 }
 
 .bloco 
@@ -34,6 +28,7 @@ body
 {
     width: 10%;
     text-align: center;
+    padding-top: 0;
     background-color: darkgoldenrod;
     color: white;
     height: 10vh;
@@ -58,6 +53,7 @@ body
     left: 15%;
     width: 70%;
     height: 10vh;
+    text-indent: 0px;
     background-color: lightgrey;
     color: black;
     border: 2px solid black;
@@ -81,7 +77,8 @@ body
 .conteudo 
 {
     width: 100%;
-    text-indent: 5%;
+    text-indent: 2%;
+    padding-top: 2%;
     background-color: rgb(0, 0, 50);
     color: darkgoldenrod;
     height: 80vh;
@@ -95,6 +92,6 @@ body
     text-align: center;
     font-size: 20px;
     background-color: rgb(39, 39, 39);
-    height: 10vh;
+    height: 50px;
     color: darkgrey;
 }
