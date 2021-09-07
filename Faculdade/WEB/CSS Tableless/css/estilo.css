@@ -1,0 +1,100 @@
+p 
+{
+    text-indent: 10px;
+}
+
+body 
+{
+    background-color: #000;
+    margin-top: auto;
+}
+
+.linha 
+{
+    float: left; /* disposição da div lado a lado (primeiro à esqquerda) */
+}
+
+.bloco 
+{
+    clear: left; /* anula o efeito do float left */
+}
+
+
+.header 
+{
+    width: 100%; /* largura */
+    text-align: center; /* alinhamento horizontal do texto*/
+    font-size: 20px; /* tamanho da fonte */    
+    background-color: darkblue; /* cor de fundo */
+    height: 10vh; /* altura da div */
+    color: darkgoldenrod; /* cor da fonte */
+}
+
+.menu 
+{
+    width: 10%;
+    text-align: center;
+    background-color: darkgoldenrod;
+    color: white;
+    height: 10vh;
+    font-size: 20px;
+}
+
+.sidebar 
+{
+    width: 10%; 
+    text-align: center;
+    font-size: 20px;
+    background-color: darkblue;
+    height: 80vh;
+    color: darkgoldenrod;
+    position: relative;
+}
+
+.formulario0 
+{
+    position: relative;
+    top: 5%;
+    left: 15%;
+    width: 70%;
+    height: 10vh;
+    background-color: lightgrey;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.formulario1 
+{
+    position: relative;
+    top: 10%;
+    left: 15%;
+    width: 70%;
+    height: 30vh;
+    background-color: lightgrey;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.conteudo 
+{
+    width: 100%;
+    text-indent: 5%;
+    background-color: rgb(0, 0, 50);
+    color: darkgoldenrod;
+    height: 80vh;
+    font-size: 20px;
+
+}
+
+.rodape 
+{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(39, 39, 39);
+    height: 10vh;
+    color: darkgrey;
+}
