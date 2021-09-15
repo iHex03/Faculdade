@@ -1,0 +1,26 @@
+void main() {
+  var p = Person('Bart');
+  var p2 = Person('Lisa');
+  var p3 = Person('Homer');
+  p.printName();
+  p2.printName();
+  p3._firstName='Margie';
+  p3.printName();
+}
+
+
+class Person
+{
+  String _firstName = '';
+  
+  Person(String firstName)
+  {
+    this._firstName = firstName;
+  }
+  
+    void printName()
+  {
+    print(this._firstName);
+  }
+
+}
