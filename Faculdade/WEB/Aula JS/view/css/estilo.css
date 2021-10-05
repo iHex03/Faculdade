@@ -1,0 +1,48 @@
+.logo
+{
+    height: 8vh;
+    background-color:deepskyblue;
+}
+
+.menu
+{
+    height: 8vh;
+    background-color:aqua;
+}
+
+.barraLateralEsquerda
+{
+    height: 89vh;
+    background-color:deeppink;
+}
+
+.barraLateralDireita
+{
+    height: 89vh;
+    background-color:darkslategray;
+    color: aliceblue;
+}
+
+
+.contentFirst
+{
+    height: 20vh;
+    background-color:honeydew;
+}
+
+.contentSecond
+{
+    height: 69vh;
+    background-color:honeydew;
+}
+
+.formulario
+{
+    height: 5vh;
+}
+
+.rodape
+{
+    height: 3vh;
+    background-color: aquamarine;
+}

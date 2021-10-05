@@ -1,0 +1,174 @@
+body 
+{
+    background-color: black;
+    font-family: calibri;
+}
+
+.linha 
+{
+    float: left; /* disposição da div lado a lado (primeiro à esquerda) */
+}
+
+.bloco 
+{
+    clear: left; /* anula o efeito do float left */
+}
+
+
+.cabecalho 
+{
+    width: 100%; /* largura */
+    text-align: center; /* alinhamento horizontal do texto*/
+    font-size: 50px; /* tamanho da fonte */    
+    background-color: darkslateblue; /* cor de fundo */
+    height: 8vh; /* altura da div */
+    color: whitesmoke; /* cor da fonte */
+}
+
+.menu 
+{
+    width: 10%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    height: 8vh;
+    font-size: 20px;
+}
+
+.sidebar 
+{
+    width: 10%; 
+    text-align: center;
+    font-size: 20px;
+    background-color: darkslateblue;
+    height: 88vh;
+    color: whitesmoke;
+    position: left;
+}
+
+.gameSidebar
+{
+    text-align: center;
+    padding-top: 5vh;
+    padding-left: 20px;
+}
+
+.contentArea
+{
+    padding-top: 5vh;
+}
+
+.jogoImagem
+{
+    height: 100%;
+    width: 100%;
+    border-style: groove;
+    border-color: aliceblue;
+}
+
+.jogoImagemMiniatura
+{
+    padding-top: 16%;
+    padding-bottom: 16%;
+    height: 100%;
+    width:  100%;
+
+}
+
+.rodaImagemMiniatura
+{
+    position: absolute;
+    left: 47%;
+    top: 29%;
+    text-indent: 0px;
+    background-color: rgb(19, 25, 54);
+    color: black;
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+}
+
+.jogoTitulo
+{
+    margin-left: 2vh;
+    font-size: 48px;
+    background-color: rgb(19, 25, 54);
+    color: lightgrey;
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+}
+
+.jogoDescBox
+{
+    padding-top: 1vh;
+    padding-left: 2vh;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.jogoDesc
+{
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(19, 25, 54);
+    color: lightgrey;
+}
+
+.jogoDownloadBox
+{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.jogoDownload
+{
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+
+.jogoLista
+{
+    position: absolute;
+    font-size: 30px;
+    left: 60%;
+    width: 10%;
+    text-indent: 0px;
+    background-color: rgb(19, 25, 54);
+    color: lightgrey;
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+}
+
+.autorInfo
+{
+    position: absolute;
+    font-size: 30px;
+    left: 80%;
+    width: 10%;
+    text-indent: 0px;
+    background-color: rgb(19, 25, 54);
+    color: lightgrey;
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+}
+
+
+.conteudo 
+{
+    width: 90%;
+    text-indent: 10px;
+    padding-top: 10px;
+    background-color: rgb(0, 0, 50);
+    color: darkgoldenrod;
+}
+
+.rodape 
+{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(39, 39, 39);
+    height: 4vh;
+    color: darkgrey;
+}
+

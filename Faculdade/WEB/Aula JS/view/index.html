@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula JS</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="js/validation.js"></script>
+</head>
+
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-1 col-md-1 col-lg-1 logo">
+                <img src="img/chikita.jpg" height="100%" width="100%">
+            </div>
+
+            <div class="col-sm-11 col-md-11 col-lg-11 menu">
+                MENU
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-1 col-md-1 col-lg-1 barraLateralEsquerda">
+                LEFT SIDEBAR
+            </div>
+
+            <div class="col-sm-8 col-md-8 col-lg-8">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 contentFirst">
+                        CONTENT 1 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 contentSecond">
+                        <form action="#" method="get" onsubmit="validarCampos();">
+                           
+                            <div class="row formulario">
+                                <div class="col-sm-2 col-md-2 col-lg-2">
+                                    <label for="nome">Nome:</label>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-10">
+                                    <input type="text" name="labelNome" id="nome" placeholder="Nome"> 
+                                </div>
+                            </div>
+
+                            <div class="row formulario">
+                                <div class="col-sm-2 col-md-2 col-lg-2">
+                                    <label for="idade">Idade:</label>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-10">
+                                    <select name="labelIdade" id="idade"> 
+                                        <option value="-5">-5</option>
+                                        <option value="-4">-4</option>
+                                        <option value="-3">-3</option>
+                                        <option value="-2">-2</option>
+                                        <option value="-1">-1</option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row formulario">
+                                <div class="col-sm-2 col-md-2 col-lg-2">
+                                    <label for="endereco">Endereço:</label>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-10">
+                                    <input type="text" name="labelEndereco" id="endereco"> 
+                                </div>
+                            </div>
+
+                            <div class="row formulario">
+                                <div class="col-sm-2 col-md-2 col-lg-2">
+                                    <label for="telefone">Telefone:</label>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-10">
+                                    <input type="number" name="labelTelefone" id="telefone"> 
+                                </div>
+                            </div>
+
+                            <div class="row formulario">
+
+                                <div class="col-sm-3 col-md-3 col-lg-3">
+                                    <button class="btn btn-dark" type="reset" name="btnLimpar"> 
+                                        Limpar
+                                    </button>
+                                </div>
+
+
+                                <div class="col-sm-9 col-md-9 col-lg-9">
+                                    <button class="btn btn-success" type="submit" name="btnEnviar" > 
+                                        Enviar
+                                    </button>
+                                </div>
+
+                                
+                            </div>
+                       
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-md-3 col-lg-3 barraLateralDireita">
+                RIGHT SIDEBAR
+            </div>
+        </div>
+
+        <div class="row">
+
+            
+            <div class="col-sm-12 col-md-12 col-lg-12 rodape">
+                RODAPE
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+
+
+</html>
