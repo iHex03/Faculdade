@@ -16,16 +16,16 @@ function validarCampos()
         alert("Erro ao registrar idade: valor menor ou igual a zero!");
     }
 
-    if(typeof(idade) != 'number')
+    var aux1 = typeof telefone;
+    var aux2 = typeof idade;
+
+    if(aux1.indexOf("number") == -1)
     {
-        // alert(typeof(idade));
+        alert("Erro ao registrar telefone: valor inserido não é um número!");
     }
 
-    if(typeof(telefone) != 'number')
+    if(aux2.indexOf("number") == -1)
     {
-        // alert(typeof(telefone));
+        alert("Erro ao registrar idade: valor inserido não é um número!");
     }
-
-
-
 }
